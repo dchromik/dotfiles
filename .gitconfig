@@ -1,10 +1,12 @@
 [user]
   name = Daniel Chromik
-  email = daniel.chromik@proton.me
+  email = dchromik@redhat.com
+	signingkey = /home/dchromik/.ssh/github_signing_ed25519
 
 [core]
   pager = delta
   excludesFile = ~/.gitignore
+  editor = nvim
 
 [merge]
   tool = nvimdiff2
@@ -17,3 +19,13 @@
   syntax-theme = "GitHub"
   navigate = true
   light = true
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
+	signOff = true
+
+[gpg "ssh"]
+	allowedSignersFile = /home/dchromik/.ssh/allowed_signers

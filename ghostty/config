@@ -2,6 +2,8 @@ theme = Adwaita
 font-family = Adwaita
 window-theme = ghostty
 font-size = 11
+window-padding-balance = true
+window-padding-color = extend
 
 # Pane navigation (vim-style)
 keybind = ctrl+shift+h=goto_split:left

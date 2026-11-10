@@ -4,3 +4,5 @@ git:
   diffRenderers:
     - colorArg: always
       command: delta --paging=never
+  commit:
+    signOff: true
